@@ -1,0 +1,63 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Heading styling */
+h1 {
+    color: #ffcc00;
+    margin-top: 50px;
+}
+
+/* Button styling with animation */
+.animated-button {
+    background: linear-gradient(45deg, #ff4e50, #fc913a);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(255, 78, 80, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 78, 80, 0.8);
+}
+
+/* Microphone animation */
+.microphone {
+    width: 100px;
+    position: relative;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+/* Background musical notes animation */
+@keyframes floatNotes {
+    0% { transform: translateY(100vh) scale(1); opacity: 1; }
+    100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+}
+
+.music-animation::after {
+    content: "🎵 🎶 🎤";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+    color: #ffcc00;
+    animation: floatNotes 4s linear infinite;
+}
