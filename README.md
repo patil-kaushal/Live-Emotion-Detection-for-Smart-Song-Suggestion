@@ -52,3 +52,9 @@ liveEmoji-main/
 │ └── script.js # JS for animation
 ├── .gitignore
 └── README.md
+
+## 📬 Contact
+
+If you face any issues running or using this project, feel free to reach out:
+
+📸 Instagram: [@__mehulwaghare__](https://instagram.com/__mehulwaghare__)
