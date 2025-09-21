@@ -57,4 +57,7 @@ liveEmoji-main/
 
 If you face any issues running or using this project, feel free to reach out:
 
-📸 Instagram: [@__mehulwaghare__](https://instagram.com/__mehulwaghare__)
+📸 📧 Email: kaushalpatil5140@gmail.com  
+🔗 GitHub: [patil-kaushal](https://github.com/patil-kaushal)  
+🔗 LinkedIn: [kaushal-patil](https://in.linkedin.com/in/kaushal-patil-029649302)
+
